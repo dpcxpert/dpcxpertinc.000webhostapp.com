@@ -1,0 +1,38 @@
+.container {
+	text-align: center;
+	border: 1px solid green;
+	padding: 5px;
+}
+.container table {
+	border: 1px blue;        
+	/* You can also uncomment this and remove the align="center" attribute    
+		margin: 0 auto;
+	*/
+}
+    .center {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 200;
+    }
+
+    body {
+        background-color: yellowgreen;
+    }
+    h1{
+        text-align: center;
+        border-style:solid;
+        border-color: black;
+        border-width:15px;
+    }
+    table, th, td {
+        border: 1px solid black;
+    }
+ 
+    b {
+        text-align:center;
+    }
+
+             tr:nth-child(even) {
+             background-color: #dddddd;
+             }
